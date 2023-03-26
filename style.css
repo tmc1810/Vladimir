@@ -1,0 +1,180 @@
+/* Nền */
+body  
+{
+    background: rgb(0, 0, 0);
+}
+
+/* Ảnh To */
+.box 
+{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 1500px;
+    height: 800px;
+    border-radius: 3%;
+    background: black;
+    box-shadow: 10px 10px 60px #bebebe,
+                -10px -10px 60px #ffffff;
+}
+
+.img
+{
+    position: absolute;
+}
+
+/* Hộp đen */
+.boxblack
+{
+    position:absolute;
+    width: 32%;
+    height: 800px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Chữ to trong hộp đen */
+.h1
+{
+    font-size:40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: inherit;
+    letter-spacing: 0.05em;
+}
+
+.buttonname 
+{
+    position:absolute;
+    width: 350px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+/* Ảnh và chữ nhỏ trong hộp đen */
+h2
+{
+    margin-left: 6%;
+    font-size: 15px; 
+    font-style: arial;
+    color:#bebebe;
+}
+
+button 
+{
+    align-items: center;
+    cursor: pointer;
+    margin-top: 12%;
+    left: -30%;
+    width: 430px;
+    border: 0px none;
+    transition: all .6s ease;
+    background-color: rgba(0, 0, 0, 0);  
+    display: flex;
+}
+
+button:hover {
+    transform: scale(1.02);
+}
+
+#image2 
+{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#image3 
+{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#image4 
+{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#image5 
+{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#image6 
+{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#image7 
+{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#image8 
+{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#image9 
+{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#image10 
+{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#image11
+{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#image12 
+{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9, #image10, #image11, #image12 
+{
+    transition: opacity 0.5s ease-in-out;
+}
+          
+#image1.fade-in, #image2.fade-in, #image3.fade-in, #image4.fade-in, #image5.fade-in, #image6.fade-in, #image7.fade-in, #image8.fade-in, #image9.fade-in, #image10.fade-in, #image11.fade-in, #image12.fade-in   
+{
+    opacity: 1;
+}
+
+.container:hover > :not(:hover)
+{
+    opacity: 0.2;
+    transform: scale(1);
+}
+
+.box ul {
+    margin-top: 6%;
+    margin-left: -8%;
+    width: 105%;
+    max-height: 550px;  
+    background: rgba(0, 0, 0, 0);
+    overflow: auto;
+    border-top: 1px solid #fbfbfb3a;
+    -ms-overflow-style: none;
+}
+
+.box ul::-webkit-scrollbar 
+{ 
+  width: 0 !important;
+  display: none; 
+}
